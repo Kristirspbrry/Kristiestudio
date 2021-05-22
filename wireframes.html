@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Hind:wght@600&family=Inconsolata:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/style2.css" />
+
+</head>
+<body>
+
+  <div id="navbar">
+    <a href="index.html" id="logo">Kristie's Studio</a>
+    <div id="navbar-right">
+      <a  href="index.html">👋🏼 Intro</a>
+      <a href="welsh.html">Portfolio</a>
+      <a href="https://kristieclementine.medium.com/" target="_blank">Blog</a>
+    </div>
+  </div>
+
+<section class="charcoal-bg pt10">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+        <div class="flexcenter">
+            <img class="w100" src="wframes.png" alt="">
+        <div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="flexcenter white-bg">
+      <img class="w100" src="curve-charcoal.svg" alt="">
+  <div>
+</section>
+
+<section class="white-bg">
+  <container class="responsive-container flex-column">
+
+    <container>
+      <p class="black-text left-text pt2 tiny-txt w100 ul-p">Overview</p>
+      <ul class="black-text left-text pt1 pb4">
+        <li>Made in Sketch (Figma v coming) </li>
+        <li>Component based symbols</li>
+        <li>Native iOS UI</li>
+      </ul>
+    </container>
+    <p class="notification pt2"> Project 2/6. Scroll down to go to the next one.</p>
+    <h1 class="sub-title black-text ">Rapid wireframing</h1>
+    <p class="black-text left-text pt1 pb2 w100"> A native iOS app wireframing kit.
+      It's a quick to use, component based structure to ease and speed up that initial
+      design process. </p>
+
+    <p class="black-text left-text pt1 pb2 w100"> I created a native iOS app wireframing kit.
+      It's an easy to use, component based structure to ease and speed up that initial
+      design process. This was inspired by the time when I was training up a junior designer to get into app design. I found
+    that one of the most important lessons was to teach how both the iOS and Android apps differ and how the design structure works
+  in both. Learning with native components seemed to make a lot of sense, as the saying goes - oncce you learn the basics and
+the rules you can then change and break them in a way that makes sense. It considers a variety of screen sizes and includes guidelines for each.</p>
+
+<p class="black-text left-text pt1 pb2 w100">This kit is for anyone working with app design, however it is also a learning
+tool. It was a featured product on UI8 when released and it is still available to download.</p>
+
+    <container>
+      <div class="flexcenter white-bg pb8">
+          <a class="button" target="_blank" href='https://ui8.net/kristie/products/rapid-wireframing-kit-noir'><img class="w100" src="wframes2.png" alt=""></a>
+      <div>
+    </container>
+
+  </container>
+</section>
+
+  <div id="navbar2">
+    <a href="designsystems.html" id="logo">Next &#8594; Design Systems</a>
+  </div>
+
+<section>
+  <footer>
+  </footer>
+</section>
+
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 400) {
+  document.getElementById("navbar").style.padding = "10px 10px";
+  document.getElementById("logo").style.fontSize = "16px";
+  document.getElementById("expo").style.backgroundSize = "auto 50%";
+  document.getElementById("expo").style.backgroundPosition = "bottom center";
+  document.getElementById("expo").style.opacity = "1";
+
+} else {
+  document.getElementById("navbar").style.padding = "30px 30px";
+  document.getElementById("logo").style.fontSize = "26px";
+  document.getElementById("expo").style.backgroundSize = "auto 100%";
+  document.getElementById("expo").style.opacity = "1";
+}
+}
+</script>
+
+</body>
+</html>

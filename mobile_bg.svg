@@ -1,0 +1,18 @@
+<svg width="1835" height="293" viewBox="0 0 1835 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="mobile_bg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1835" height="293">
+<rect id="mask" width="1835" height="293" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<g id="grass hill">
+<g id="Group">
+<ellipse id="Oval" cx="865.093" cy="387.817" rx="495.781" ry="284.454" fill="#172B53"/>
+<ellipse id="Oval_2" cx="1423.77" cy="402.454" rx="495.781" ry="284.454" fill="#172B53"/>
+</g>
+<ellipse id="Oval_3" cx="134.324" cy="334.047" rx="353.377" ry="158.028" fill="#172B53"/>
+</g>
+<ellipse id="Oval_4" cx="327.959" cy="301.736" rx="234.02" ry="129.42" transform="rotate(-17 327.959 301.736)" fill="#172B53"/>
+<ellipse id="Oval_5" cx="886.633" cy="316.373" rx="234.02" ry="129.42" transform="rotate(-17 886.633 316.373)" fill="#172B53"/>
+</g>
+</g>
+</svg>

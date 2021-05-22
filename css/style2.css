@@ -471,6 +471,10 @@ h2.quote-font {
 
 @media screen and (max-width: 659px) {
 
+  .w40 {
+    width: 100%;
+  }
+
   body {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   }

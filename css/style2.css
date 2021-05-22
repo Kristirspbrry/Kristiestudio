@@ -471,6 +471,27 @@ h2.quote-font {
 
 @media screen and (max-width: 659px) {
 
+  ul {
+    font-size: 1.2em;
+    line-height: 1.8em;
+  }
+
+  .pt2 {
+    padding-top: 0.5em;
+  }
+
+  .w70 {
+    width: 100%;
+  }
+
+  .notification {
+    font-size: 1.2em;
+  }
+
+  .pt10 {
+    padding-top: 1em;
+  }
+
   .w40 {
     width: 100%;
   }

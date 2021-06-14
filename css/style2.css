@@ -127,6 +127,7 @@ video  {
 
 video.prototypequid {
   clip-path: none;
+  max-width: 40%;
 }
 
 .max-circle-w {

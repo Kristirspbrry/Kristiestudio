@@ -566,7 +566,27 @@ h2.quote-font {
 
 @media screen and (max-width: 659px) {
 
+  .flex-row {
+    flex-direction: column;
+  }
+
+  .mr-4 {
+    margin-right: 0;
+  }
+
+  .mt-header {
+    margin-top: 50px !important;
+  }
+
+  .pbm15 {
+    padding-bottom: 15px;
+  }
+
   .pt4 {
+    padding-top: 1em;
+  }
+
+  .pb4 {
     padding-top: 1em;
   }
 

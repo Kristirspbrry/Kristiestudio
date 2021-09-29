@@ -275,6 +275,10 @@ video.prototypequid {
   width: 100%;
 }
 
+.mw100 {
+  max-width: 100% !important;
+}
+
 .w60 {
   width: 60%;
 }
@@ -288,7 +292,15 @@ video.prototypequid {
 }
 
 .mr-4 {
-  margin-right: 4em;;
+  margin-right: 4em;
+}
+
+.mr-05 {
+  margin-right: 0.5em;
+}
+
+.mb-05 {
+  margin-bottom: 0.5em !important;
 }
 
 .overlay {
@@ -362,6 +374,9 @@ footer {
   padding: 50px;
 }
 
+footer p{
+  font-size: 1.3em;
+}
 .p-small {
   font-size: 1.3em;
   font-family: 'Space Mono', monospace;
@@ -723,4 +738,8 @@ h2.quote-font {
 
 .white-text {
   color: #dee2e6 !important;
+}
+
+.footer-txt {
+  font-size: 1.5em;
 }

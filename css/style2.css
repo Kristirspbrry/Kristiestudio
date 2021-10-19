@@ -334,7 +334,7 @@ video.prototypequid {
 }
 
 a img:hover {
-  opacity: 10%;
+  opacity: 80%;
 }
 
 .container-relative {
@@ -403,6 +403,11 @@ footer p{
 .tiny-txt {
   text-transform: uppercase;
   font-style: italic;
+  font-size: 1.3em;
+}
+
+.tiny-txt2 {
+  text-transform: uppercase;
   font-size: 1.3em;
 }
 
@@ -742,4 +747,9 @@ h2.quote-font {
 
 .footer-txt {
   font-size: 1.5em;
+}
+
+.col-xs-12 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
